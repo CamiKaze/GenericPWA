@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Company Name</span>
+        <span class="example-spacer"></span>
+        <mat-icon [matMenuTriggerFor]="menu" class="example-icon" aria-hidden="false" aria-label="login icon">list</mat-icon>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item ><mat-icon>account_circle</mat-icon>Login</button>
+            <button mat-menu-item><mat-icon>how_to_reg</mat-icon>Register</button>
+            <button mat-menu-item><mat-icon>emoji_people</mat-icon>Profile</button>
+            <button mat-menu-item><mat-icon>exit_to_app</mat-icon>Logout</button>
+        </mat-menu>
+    </mat-toolbar-row>
+</mat-toolbar>
